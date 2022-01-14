@@ -1,7 +1,6 @@
-default: https://karelpak1.github.io/dlc/micro_patch/dc_8.7.0_1_3096855
-PowerVR_Android: micro_patch/dc_8.7.0_1_3096855_PowerVR_Android.dvpm
-PowerVR_iOS: micro_patch/dc_8.7.0_1_3096855_PowerVR_iOS.dvpm
-adreno: micro_patch/dc_8.7.0_1_3096855_adreno.dvpm
-dx11: micro_patch/dc_8.7.0_1_3096855_dx11.dvpm
-mali: micro_patch/dc_8.7.0_1_3096855_mali.dvpm
-tegra: micro_patch/dc_8.7.0_1_3096855_tegra.dvpm
+PowerVR_Android: dc_8.7.0_1_3096855_PowerVR_Android.dvpm
+PowerVR_iOS: dc_8.7.0_1_3096853_PowerVR_iOS.dvpm
+adreno: dc_8.7.0_1_3096855_adreno.dvpm
+dx11: dc_8.7.0_1_3096853_dx11.dvpm
+mali: dc_8.7.0_1_3096855_mali.dvpm
+tegra: dc_8.7.0_1_3096855_tegra.dvpm
