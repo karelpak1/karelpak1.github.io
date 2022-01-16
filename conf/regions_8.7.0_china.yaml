@@ -1,0 +1,377 @@
+Common:
+    smartDlcUrls:
+        - "https://ma67.gdl.netease.com/smart_dlc"
+    smartDlcDynamicContentConfigsUrl: "https://ma67.gdl.netease.com/smart_dlc"
+    additionalLocalizationBaseUrl: "https://stufficons.wgcdn.co/localizations_china"
+    public: "false"
+    latencyLimitMs: 200
+    wotBlitzPortalQRCode: "https://ma67.gdl.netease.com/qr_code/wotblitz_%(realm).png"
+    communityUrls:
+        http:
+            portal: "https://wotblitz.ru"
+            wargaming: "https://www.wargaming.net"
+    tournamentEULA: "https://ptl-st30.wargaming.net/%(locale)/mobile/blitz-1000/"
+    chinaStoresConfigBaseUrl: "https://ma67.gdl.netease.com/"
+    netEaseGas3Url: "https://mgbsdktest.matrix.netease.com/ma67/sdk/"
+    defaultLanguage: "zh-cn"
+    isTournamentEventsEnabled: false
+    prizesWithdrawal: "https://wdw-st30.wotblitz.com"
+    assets: "https://ma67.gdl.netease.com/assets/%s"
+    videoAssets: "https://ma67.gdl.netease.com/assets/Video/%(slug)"
+    battlePassOffersStorage: "https://ma67.gdl.netease.com/bp_offers/"
+    ageRatingURL: "https://ma67.gdl.netease.com/AgeRating.yaml"
+    neteaseAccountRetrievalUrl: "https://qaaccount.netease.com:20001/api/get_url/get_url"
+    neteaseAnnouncementUrl: "https://ma67.gdl.netease.com/announcement.json"
+    isImageCacheEnabled: true
+
+Regions:
+    CNGV:
+        news: "https://wbp-cngv.wotblitz.asia/en/rss/news/"
+        popupNews: "https://wbp-cngv.wotblitz.asia/en/promo/"
+        public: "true"
+        wotBlitzPortal: "https://ptl-st30.wargaming.net"
+        wgnwn: "https://cngv.wotblitz.asia"
+        realm: "cn"
+        flag: "cn"
+        clientId: IkHLXmY97hL0fZwxKFQkkCpH5skz0vw8WvOxsnrr
+        netEaseHostId: 3
+        hosts:
+            CNGV:
+                url: "wotblitzcngv.login.wargaming.net:20017"
+                allowTcpConnection: true
+        tmsPublicApi: 'https://tmsis-cngv.wotblitz.asia'
+        isGGMAllowed: true
+        ggmCredits:
+            tokenUrl: "https://auth-cngv.ggdevcn.com/"
+            payUrl: "https://pay-cngv.ggdevcn.com/"
+            frontierUrl: "https://api-cngv.ggdevcn.com/"
+            client_id: "wotb"
+            client_secret: "secret"
+
+ClanEmblems:
+    DefaultEmblem:
+        Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10001.png"
+        Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10001.png"
+    DefaultCreationEmblemID: 10001
+    List:
+        2:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-2.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-2.png"
+        3:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-3.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-3.png"
+        4:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-4.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-4.png"
+        5:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-5.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-5.png"
+        6:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-6.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-6.png"
+        7:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-7.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-7.png"
+        8:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-8.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-8.png"
+        9:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-9.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-9.png"
+        10:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10.png"
+        11:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-11.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-11.png"
+        20:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20.png"
+        21:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-21.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-21.png"
+        22:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-22.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-22.png"
+        23:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-23.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-23.png"
+        24:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-24.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-24.png"
+        25:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-25.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-25.png"
+        26:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-26.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-26.png"
+        27:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-27.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-27.png"
+        28:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-28.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-28.png"
+        29:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-29.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-29.png"
+        30:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-30.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-30.png"
+        31:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-31.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-31.png"
+        32:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-32.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-32.png"
+        33:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-33.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-33.png"
+        34:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-34.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-34.png"
+        35:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-35.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-35.png"
+        36:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-36.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-36.png"
+        37:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_027.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_027.png"
+        38:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_028.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_028.png"
+        39:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_029.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_029.png"
+        40:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_030.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_030.png"
+        41:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_031.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_031.png"
+        42:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_032.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_032.png"
+        43:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_033.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_033.png"
+        44:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_034.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_034.png"
+        45:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_035.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_035.png"
+        46:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_036.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_036.png"
+        47:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_037.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_037.png"
+        48:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-48.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-48.png"
+        49:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_eu_17.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_eu_17.png"
+        50:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_asia_32.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_asia_32.png"
+        51:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_asia_1439.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_asia_1439.png"
+        52:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_na_4455.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_na_4455.png"
+        53:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_asia_35579.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_asia_35579.png"
+        54:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_na_10012.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_na_10012.png"
+        55:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_ru_13691.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_ru_13691.png"
+        56:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_eu_24803.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_eu_24803.png"
+        57:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_na_44868.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_na_44868.png"
+        58:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_eu_95009.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_eu_95009.png"
+        59:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_ru_246160.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_ru_246160.png"
+        60:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_ru_310874.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_ru_310874.png"
+        61:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_038.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_038.png"
+        62:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_039.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_039.png"
+        63:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_040.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_040.png"
+        64:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_041.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_041.png"
+        65:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_042.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_042.png"
+        66:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_043.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_043.png"
+        67:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-logo_personal_044.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-logo_personal_044.png"
+        10001:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10001.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10001.png"
+        10002:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10002.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10002.png"
+        10003:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10003.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10003.png"
+        10004:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10004.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10004.png"
+        10005:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10005.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10005.png"
+        10006:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10006.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10006.png"
+        10007:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10007.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10007.png"
+        10008:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10008.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10008.png"
+        10009:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10009.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10009.png"
+        10010:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10010.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10010.png"
+        10011:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10011.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10011.png"
+        10012:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10012.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10012.png"
+        10013:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10013.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10013.png"
+        10014:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10014.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10014.png"
+        10015:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10015.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10015.png"
+        10016:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10016.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10016.png"
+        10017:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10017.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10017.png"
+        10018:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10018.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10018.png"
+        10019:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10019.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10019.png"
+        10020:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10020.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10020.png"
+        10021:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10021.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10021.png"
+        10022:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10022.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10022.png"
+        10023:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10023.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10023.png"
+        10024:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10024.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-10024.png"
+        20002:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20002.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20002.png"
+        20003:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20003.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20003.png"
+        20004:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20004.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20004.png"
+        20005:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20005.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20005.png"
+        20006:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20006.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20006.png"
+        20007:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20007.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20007.png"
+        20008:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20008.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20008.png"
+        20009:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20009.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20009.png"
+        20010:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20010.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20010.png"
+        20011:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20011.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20011.png"
+        20012:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20012.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20012.png"
+        20013:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20013.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20013.png"
+        20014:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20014.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20014.png"
+        20015:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20015.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20015.png"
+        20016:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20016.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20016.png"
+        20017:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20017.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20017.png"
+        20018:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20018.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20018.png"
+        20019:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20019.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20019.png"
+        20020:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20020.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20020.png"
+        20021:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20021.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20021.png"
+        20022:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20022.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20022.png"
+        20023:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20023.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20023.png"
+        20024:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20024.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20024.png"
+        20025:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20025.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20025.png"
+        20026:
+            Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-20026.png"
+            Gfx2: "https://ma67.gdl.netease.com/icons/clanEmblems2x/clan-icon-v2-20026.png"
