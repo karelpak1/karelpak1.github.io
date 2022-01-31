@@ -21,10 +21,10 @@
 <body>
     <main>
         <nav>
-            <?php include_once 'navigace.php';?>  -->
+            <?php include_once 'navigace.php';?>
         </nav>
         <article>
-        <!--    <?php 
+            <?php 
                 if (isset($_GET["strana"])) {
                     $str = $_GET["strana"];
                     include_once "$str.php";
@@ -32,7 +32,7 @@
                 else {
                     include_once 'uvod.php';
                 }
-                ?> -->
+            ?>
         </article>
         <footer>
               <?php 

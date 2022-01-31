@@ -15,13 +15,13 @@
 		</p>
         <div class="connect">
             <a href="kontakt.php" id="kontakt">
-                kontakt
+                Kontakt
             </a>
             <a href="https://www.facebook.com/" id="facebook">
-                facebook
+                Facebook
             </a>
             <a href="https://twitter.com/" id="twitter">
-                twitter
+                Twitter
             </a>
         </div>
 	</div>

@@ -12,7 +12,7 @@
                 //soubor = uvod.php / fotogalerie.php / blog.php / about.php / kontakt.php
                 //nazevmenu = Home / Fotogalerie / Blog / O nás / Kontakt
 
-                // class="selected" na aktuální stránce. Jinak bez classu
+                // TODO: class="selected" na aktuální stránce. Jinak bez classu
                 echo "<li class='selected'";
                 echo ">";
                 echo "<a href='index.php?strana=$soubor'>$nazevmenu</a>";
