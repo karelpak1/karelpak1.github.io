@@ -1,7 +1,7 @@
 <div id="footer">
 	<div>
 		<p>
-		    &#169; 2022 ZahradkyOdProfesionalu. Všechny práva vyhrazena.
+		    &#169; 2022 ZahradkyOdProfesionalu. Vytvořil Karel Janoušek
             <?php
                 date_default_timezone_set("Europe/Prague");
                 echo "<br>";
@@ -11,10 +11,10 @@
                     echo "Dnes je ".$dny[date("N")]." ".date("j. ").$mesice[date("n")].date(" Y".".");
                     echo "<br>";
                     echo "Vaše IP adresa je ".$_SERVER['REMOTE_ADDR'];
-            ?>
+            ?>            
 		</p>
         <div class="connect">
-            <a href="kontakt.php" id="kontakt">
+            <a href='mailto:info@ZahradkyOdProfesionalu.cz' id="kontakt">
                 Kontakt
             </a>
             <a href="https://www.facebook.com/" id="facebook">
