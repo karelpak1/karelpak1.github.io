@@ -20,11 +20,8 @@
 </head>
 <body>
     <main>
-        <header>
-            <?php include_once 'header.php';?>
-        </header>
         <nav>
-        <!--     <?php include_once 'navigace.php';?>  -->
+            <?php include_once 'navigace.php';?>  -->
         </nav>
         <article>
         <!--    <?php 
