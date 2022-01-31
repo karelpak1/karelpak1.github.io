@@ -25,7 +25,7 @@
 						<span>4. Března - Vyfoceno Lucií Š.</span> <span>14. Zobrazení</span>
 					</div>
 				</div>
-				<span class="bg-bottom"></span> <span class="triangle"></span>
+				<span class="bg-bottom"></span><span class="triangle"></span>
 			</li>
 			<li>
 				<span class="bg-top"></span> <a href="#"><img src="images/fotka3.png" alt="fotka novinek 3"></a>

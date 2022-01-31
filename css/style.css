@@ -1,4 +1,4 @@
-/*------------------------- Fonts ------------------------*/
+/*------------------------- FONTY ------------------------*/
 @font-face {
 	font-family: 'anticregular';
 	src: url('../fonts/antic-regular-webfont.eot');
@@ -13,7 +13,7 @@
 	font-weight: normal;
 	font-style: normal;
 }
-/*------------------------- Kontejner ------------------------*/
+/*------------------------- BODY  ------------------------*/
 body {
 	margin:0;
 	font-family:Arial, Helvetica, sans-serif;
@@ -39,7 +39,7 @@ p a {
 p a:hover {
 	color:#1bb5ac;
 }
-/*------------------------- Hlavicka ------------------------*/
+/*------------------------- NAVIGACE ------------------------*/
 #header {
 	background:url(../images/bg-header.jpg);
 	height:130px;
@@ -85,13 +85,14 @@ p a:hover {
 #header div ul li.selected a, #header div ul li a:hover {
 	color:#1bb5ac;
 }
-/*------------------------- Body ------------------------*/
+/*------------------------- NASTAVENI JEDNOTLIVYCH STRAN ------------------------*/
 #body {
 	margin:0 auto 97px;
 	min-height:1005px;
 	padding:38px 29px 0;
 	width:902px;
 }
+/*----------- HOME --------------*/
 #body.home .blog {
 	overflow:hidden;
 }
@@ -180,6 +181,14 @@ p a:hover {
 	margin:0 0 24px;
 	text-align:right;
 }
+#body.home .blog div h3 a, #body.home .article div h3 a, #body.home .news div h3 a, #body.fotogalerie ul li div h3 a {
+	color:#1bb5ac;
+	text-decoration:none;
+}
+#body.home .blog div h3 a:hover, #body.home .article div h3 a:hover, #body.home .news div h3 a:hover, #body.fotogalerie ul li div h3 a:hover, #body.kontakt h3 a:hover, #body.blog > div:first-child > ul > li > div h3 a:hover {
+	text-decoration:underline;
+}
+/*----------- FOTOGALERIE --------------*/
 #body.fotogalerie ul li {
 	margin:0 0 40px;
 	overflow:hidden;
@@ -196,10 +205,31 @@ p a:hover {
 #body.fotogalerie ul li > a {
 	float:right;
 }
+#body.fotogalerie ul, #body.blog > div:first-child > ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#body.fotogalerie ul li div h3, #body.about h3 {
+	color:#e49e06;
+	font-family:Nunito-Regular;
+	font-size:20px;
+	font-weight:400;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:14px 0 0;
+}
+/*----------- O NÁS --------------*/
 #body.about p {
 	margin:6px 0 72px;
 	text-align:justify;
 }
+/* VIDEO */
+#body.about div.video {
+	width:320;
+	height:240;
+}
+/*----------- KONTAKT --------------*/
 #body.kontakt h3 {
 	color:#e49e06;
 	font-family:Nunito-Regular;
@@ -255,6 +285,7 @@ p a:hover {
 	line-height:24px;
 	margin:0 0 0 40px;
 }
+/*----------- BLOG --------------*/
 #body.blog {
 	background:url(../images/bg-border.png) repeat-y 660px 0;
 	margin-top:38px;
@@ -426,31 +457,6 @@ p a:hover {
 	letter-spacing:.05em;
 	line-height:24px;
 	text-decoration:none;
-}
-#body.home .blog div h3 a, #body.home .article div h3 a, #body.home .news div h3 a, #body.fotogalerie ul li div h3 a {
-	color:#1bb5ac;
-	text-decoration:none;
-}
-#body.home .blog div h3 a:hover, #body.home .article div h3 a:hover, #body.home .news div h3 a:hover, #body.fotogalerie ul li div h3 a:hover, #body.kontakt h3 a:hover, #body.blog > div:first-child > ul > li > div h3 a:hover {
-	text-decoration:underline;
-}
-#body.fotogalerie ul, #body.blog > div:first-child > ul {
-	list-style:none;
-	margin:0;
-	padding:0;
-}
-#body.fotogalerie ul li div h3, #body.about h3 {
-	color:#e49e06;
-	font-family:Nunito-Regular;
-	font-size:20px;
-	font-weight:400;
-	letter-spacing:.05em;
-	line-height:24px;
-	margin:14px 0 0;
-}
-#body.fotogalerie ul li > a img:hover, #body.blog > div:first-child > ul > li > a img:hover {
-	filter:alpha(opacity=90);/* Needed for IE8 and old versions */
-	opacity:0.9;
 }
 #body.blog > div:first-child > ul.paging li.selected a, #body.blog .sidebar ul li > a:hover, #body.blog .sidebar ul li span a:hover {
 	color:#e49e06;

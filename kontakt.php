@@ -1,6 +1,7 @@
 <div id="body" class="kontakt">
 	<div>
 		<div>
+			<h3>Kontakt:</h3>
 			<span><strong>E-mail:</strong> info@zahradkyodprofesionalu.cz</span>
 			<p>
 				Můžete nám také zavolat na telefon ihned

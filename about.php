@@ -11,4 +11,8 @@
 	<p>
 		Okrasné květiny vybíráme, podle lokace budovy a barvy zahrady. Také vybíráme velmi Luxuní a exotické rostliny, které zde v normálních podmínkách nerostou.
 	</p>
+	<audio controls autoplay>
+		<source src="./audio/morning-garden-acoustic-chill-15013.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
 </div>

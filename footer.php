@@ -8,9 +8,11 @@
                 $mesice = [1 => 'leden', 'únor', 'březen', 'duben', 'květen', 'červen', 'červenec', 'srpen', 'září', 'říjen','listopad', 'prosinec'];
                 $dny = ['neděle', 'pondělí', 'úterý', 'středa', 'čtvrtek', 'pátek', 'sobota'];
 
-                    echo "Dnes je ".$dny[date("N")]." ".date("j. ").$mesice[date("n")].date(" Y".".");
+                    echo "Dnes je ".$dny[date("N")]." ".date("j/").$mesice[date("n")].date("/Y");
+                    echo ", čas Vaší poslední návštěvy či aktualizace je ".date("G").' hodin ' .date("i").' minut '.date("s").' vteřin.';
                     echo "<br>";
-                    echo "Vaše IP adresa je ".$_SERVER['REMOTE_ADDR'];
+                    //echo "Vaše IP adresa je ".$_SERVER['REMOTE_ADDR'];
+                    echo "Zdroj dat: <a href='https://www.w3schools.com'>w3schools</a> a <a href='https://pixabay.com/'>pixabay</a>"; 
             ?>            
 		</p>
         <div class="connect">
