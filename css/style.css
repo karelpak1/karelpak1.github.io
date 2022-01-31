@@ -13,6 +13,24 @@
 	font-weight: normal;
 	font-style: normal;
 }
+/*------------------------- Mobile-First  ------------------------*/
+.product-img {
+	width: 50%;
+	float: left;
+  }
+  @media screen and (max-width: 40.5em) {
+	.product-img {
+	  width: auto;
+	  float: none;
+	}
+  }
+  @media screen and (min-width: 40.5em) {
+	.product-img {
+	  width: 50%;
+	  float: left;
+	}
+  }
+
 /*------------------------- BODY  ------------------------*/
 body {
 	margin:0;

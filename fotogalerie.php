@@ -7,6 +7,7 @@
 					Finální fotografie, z rekonstrukce a předělání zahrady paní Novákové. Byla velmi šťastná jelikož naše práce se líbila i jejím sousedům.
 				</p>
 			</div>
+			<!-- Lze upravit hrefy na odkaz článku, který je rozepsaný -->
 			<a href="index.php?strana=fotogalerie"><img src="images/dum1.png" alt="Dum po rekonstrukci 1"></a>
 		</li>
 		<li>

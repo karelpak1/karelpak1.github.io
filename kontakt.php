@@ -1,4 +1,5 @@
 <div id="body" class="kontakt">
+	<!-- Kontakt na vymyšlené údaje -->
 	<div>
 		<div>
 			<h3>Kontakt:</h3>

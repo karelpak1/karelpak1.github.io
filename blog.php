@@ -72,9 +72,10 @@
 			<li class="selected">
 				<a href="#">2022</a>
 				<?php
-				// Přidaný odkaz, pro budoucí filtrování + automatické vytvoření kalendáře
+				// Přidaný odkaz, pro budoucí filtrování - Zase, lze rozšířit funkce
 				$mesice = ["leden"=>"Leden", "unor"=>"Únor", "brezen"=>"Březen", "duben"=>"Duben", "kveten"=>"květen", "cerven"=>"Červen", "cervenec"=>"Červenec", "srpen"=>"Srpen", "zari"=>"Září", "rijen"=>"Říjen", "listopad"=>"Listopad", "prosinec"=>"Prosinec"];
 
+				// automatické vytvoření kalendáře
 				foreach ($mesice as $odkaz => $jmenoVMenu) {
 					echo "<span>";
 					echo "<a href='#$odkaz'>$jmenoVMenu</a>";
