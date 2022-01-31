@@ -15,6 +15,7 @@
 		</p>
         <div class="connect">
             <a href="kontakt.php" id="kontakt">
+<<<<<<< HEAD
                 Kontakt
             </a>
             <a href="https://www.facebook.com/" id="facebook">
@@ -22,6 +23,15 @@
             </a>
             <a href="https://twitter.com/" id="twitter">
                 Twitter
+=======
+                kontakt
+            </a>
+            <a href="https://www.facebook.com/" id="facebook">
+                facebook
+            </a>
+            <a href="https://twitter.com/" id="twitter">
+                twitter
+>>>>>>> 26714ac9c048200a3c6b5d4f56219edc07a235dc
             </a>
         </div>
 	</div>
