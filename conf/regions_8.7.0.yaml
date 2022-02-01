@@ -2,7 +2,7 @@ Common:
     smartDlcUrls:
         - "http://cdn.static.wotb.app/dlc"
         - "http://dl-wotblitz-gc.wargaming.net/dlc"
-    smartDlcDynamicContentConfigsUrl: "http://dl-wotblitz-gc.wargaming.net"
+    smartDlcDynamicContentConfigsUrl: "http://dl-wotblitz-gc.wargaming.net/dlc"
     additionalLocalizationBaseUrl: "https://stufficons.wgcdn.co/localizations"
     public: "false"
     latencyLimitMs: 200
