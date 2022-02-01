@@ -164,6 +164,32 @@ Regions:
             Android: "c954957d"
         isImageCacheEnabled: false
 
+    CNGV:
+        news: "https://wbp-cngv.wotblitz.asia/en/rss/news/"
+        popupNews: "https://wbp-cngv.wotblitz.asia/en/promo/"
+        public: "true"
+        wotBlitzPortal: "https://wbp-cngv.wotblitz.asia"
+        wgnwn: "https://cngv.wotblitz.asia"
+        realm: "cn"
+        flag: "cn"
+        clientId: IkHLXmY97hL0fZwxKFQkkCpH5skz0vw8WvOxsnrr
+        netEaseHostId: 3
+        hosts:
+            CNGV:
+                url: "wotblitzcngv.login.wargaming.net:20017"
+        tmsPublicApi: 'https://tmsis-cngv.wotblitz.asia'
+        isGGMAllowed: true
+        ggmCredits:
+            tokenUrl: "https://auth-cngv.ggdevcn.com/"
+            payUrl: "https://pay-cngv.ggdevcn.com/"
+            frontierUrl: "https://api-cngv.ggdevcn.com/"
+            client_id: "wotb"
+            client_secret: "secret"
+        battlePassOffersStorage: "https://ma67.gdl.netease.com/bp_offers/"
+        layoutPosition:
+            x: 0.7
+            y: 0.55
+
     Europe:
         wgnwn: "https://eu.wargaming.net"
         clientId: "D6lcd51pjyFVaRWPGGbVfBS6AGVBaSyN3wYCh9y4"
