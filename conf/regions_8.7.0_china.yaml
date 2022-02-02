@@ -25,6 +25,31 @@ Common:
     isImageCacheEnabled: true
 
 Regions:
+    CNGV:
+        news: "https://wbp-cngv.wotblitz.asia/en/rss/news/"
+        popupNews: "https://wbp-cngv.wotblitz.asia/en/promo/"
+        public: "true"
+        wotBlitzPortal: "https://ptl-st30.wargaming.net"
+        wgnwn: "https://cngv.wotblitz.asia"
+        realm: "cn"
+        flag: "cn"
+        clientId: IkHLXmY97hL0fZwxKFQkkCpH5skz0vw8WvOxsnrr
+        netEaseHostId: 3
+        hosts:
+            CNGV:
+                url: "wotblitzcngv.login.wargaming.net:20017"
+                allowTcpConnection: true
+        tmsPublicApi: 'https://tmsis-cngv.wotblitz.asia'
+        isGGMAllowed: true
+        ggmCredits:
+            tokenUrl: "https://auth-cngv.ggdevcn.com/"
+            payUrl: "https://pay-cngv.ggdevcn.com/"
+            frontierUrl: "https://api-cngv.ggdevcn.com/"
+            client_id: "wotb"
+            client_secret: "secret"
+        layoutPosition:
+            x: 0.7
+            y: 0.55
     REVIEW_NA:
         realm: "us"
         flag: "us"
@@ -78,29 +103,6 @@ Regions:
             x: 0.521
             y: 0.55
         isImageCacheEnabled: true
-    CNGV:
-        news: "https://wbp-cngv.wotblitz.asia/en/rss/news/"
-        popupNews: "https://wbp-cngv.wotblitz.asia/en/promo/"
-        public: "true"
-        wotBlitzPortal: "https://ptl-st30.wargaming.net"
-        wgnwn: "https://cngv.wotblitz.asia"
-        realm: "cn"
-        flag: "cn"
-        clientId: IkHLXmY97hL0fZwxKFQkkCpH5skz0vw8WvOxsnrr
-        netEaseHostId: 3
-        hosts:
-            CNGV:
-                url: "wotblitzcngv.login.wargaming.net:20017"
-                allowTcpConnection: true
-        tmsPublicApi: 'https://tmsis-cngv.wotblitz.asia'
-        isGGMAllowed: true
-        ggmCredits:
-            tokenUrl: "https://auth-cngv.ggdevcn.com/"
-            payUrl: "https://pay-cngv.ggdevcn.com/"
-            frontierUrl: "https://api-cngv.ggdevcn.com/"
-            client_id: "wotb"
-            client_secret: "secret"
-
 ClanEmblems:
     DefaultEmblem:
         Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10001.png"

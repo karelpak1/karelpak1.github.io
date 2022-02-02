@@ -165,6 +165,10 @@ Regions:
         isImageCacheEnabled: false
 
     CNGV:
+        chinaStoresConfigBaseUrl: "https://ma67.gdl.netease.com/"
+        netEaseGas3Url: "https://mgbsdk.matrix.netease.com/ma67/sdk/"
+        neteaseAccountRetrievalUrl: "https://qaaccount.netease.com:20001/api/get_url/get_url"
+        neteaseAnnouncementUrl: "https://ma67.gdl.netease.com/announcement.json"
         news: "https://wbp-cngv.wotblitz.asia/en/rss/news/"
         popupNews: "https://wbp-cngv.wotblitz.asia/en/promo/"
         public: "true"
