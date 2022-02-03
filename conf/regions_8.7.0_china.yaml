@@ -1,108 +1,59 @@
 Common:
     smartDlcUrls:
         - "https://ma67.gdl.netease.com/smart_dlc"
-    smartDlcDynamicContentConfigsUrl: "https://ma67.gdl.netease.com/smart_dlc"
     additionalLocalizationBaseUrl: "https://stufficons.wgcdn.co/localizations_china"
-    public: "false"
+    smartDlcDynamicContentConfigsUrl: "https://ma67.gdl.netease.com/smart_dlc"
+    public: "true"
     latencyLimitMs: 200
-    wotBlitzPortalQRCode: "https://ma67.gdl.netease.com/qr_code/wotblitz_%(realm).png"
-    communityUrls:
-        http:
-            portal: "https://wotblitz.ru"
-            wargaming: "https://www.wargaming.net"
-    tournamentEULA: "https://ptl-st30.wargaming.net/%(locale)/mobile/blitz-1000/"
     chinaStoresConfigBaseUrl: "https://ma67.gdl.netease.com/"
-    netEaseGas3Url: "https://mgbsdktest.matrix.netease.com/ma67/sdk/"
+    netEaseGas3Url: "https://mgbsdk.matrix.netease.com/ma67/sdk/"
+    wotBlitzPortalQRCode: "https://ma67.gdl.netease.com/qr_code/wotblitz_%(realm).png"
     defaultLanguage: "zh-cn"
     isTournamentEventsEnabled: false
-    prizesWithdrawal: "https://wdw-st30.wotblitz.com"
     assets: "https://ma67.gdl.netease.com/assets/%s"
     videoAssets: "https://ma67.gdl.netease.com/assets/Video/%(slug)"
     battlePassOffersStorage: "https://ma67.gdl.netease.com/bp_offers/"
     ageRatingURL: "https://ma67.gdl.netease.com/AgeRating.yaml"
+    debugCrashPercentage: 0
     neteaseAccountRetrievalUrl: "https://qaaccount.netease.com:20001/api/get_url/get_url"
     neteaseAnnouncementUrl: "https://ma67.gdl.netease.com/announcement.json"
     isImageCacheEnabled: true
 
 Regions:
-    CNGV:
-        news: "https://wbp-cngv.wotblitz.asia/en/rss/news/"
-        popupNews: "https://wbp-cngv.wotblitz.asia/en/promo/"
-        public: "true"
-        wotBlitzPortal: "https://ptl-st30.wargaming.net"
-        wgnwn: "https://cngv.wotblitz.asia"
+    CN1:
+        wgnwn: "https://cn1.wotblitz.asia"
+        news: "https://wbp-cn1.wotblitz.asia/en/rss/news/"
+        popupNews: "https://wbp-cn1.wotblitz.asia/en/promo/"
+        contentPages: "https://wbp-cn1.wotblitz.asia/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
         realm: "cn"
         flag: "cn"
-        clientId: IkHLXmY97hL0fZwxKFQkkCpH5skz0vw8WvOxsnrr
-        netEaseHostId: 3
+        wotBlitzPortal: "https://wbp-cn1.wotblitz.asia"
+        clientId: "yFgIPcLBlKVLBs6K9mtK3yDnDsLJXqsDNidGESQL"
+        netEaseHostId: 2
+        tmsPublicApi: 'https://tmsis-wotblitzcn1.wotblitz.asia'
+        analyticsConfig:
+            keyedArchive:
+                started:
+                    bool: false
+                events:
+                    keyedArchive:
+                        all:
+                            bool: false
         hosts:
-            CNGV:
-                url: "wotblitzcngv.login.wargaming.net:20017"
-                allowTcpConnection: true
-        tmsPublicApi: 'https://tmsis-cngv.wotblitz.asia'
+            CN1_C0:
+                clusterID: 0
+                url: "wotblitzcn0.login.wargaming.net:20016"
+            CN1_C1:
+                clusterID: 1
+                url: "wotblitzcn1.login.wargaming.net:20016"
         isGGMAllowed: true
         ggmCredits:
-            tokenUrl: "https://auth-cngv.ggdevcn.com/"
-            payUrl: "https://pay-cngv.ggdevcn.com/"
-            frontierUrl: "https://api-cngv.ggdevcn.com/"
+            tokenUrl: "https://auth.gamegridscn.com/"
+            payUrl: "https://pay.gamegridscn.com/"
+            frontierUrl: "https://api.gamegridscn.com/"
             client_id: "wotb"
-            client_secret: "secret"
-        layoutPosition:
-            x: 0.7
-            y: 0.55
-    REVIEW_NA:
-        realm: "us"
-        flag: "us"
-        wgnwn: "https://st30.wargaming.net"
-        clientId: "xQIHnSChfYHun4KN5H6rDIHNJ3RMvZqyHCoLlBVP"
-        # new ids per platform
-        clientIds:
-            android: "tbo3ztJopMb8Onxuf92dwC72aY0vLZNiwi9bum5s"
-            ios: "6NGDADRGTUmNkGsJnsspihG2qWmGdovOS9fuEnDR"
-            macos: "SZANhMjPXfjoGhbA2eRdGowfAbnHs2wKab6ebb7s"
-            macos_steam: "ciz03Kj8IpF8EH3HW6QO9Vqsc8DMjkZYmZiCtW1I"
-            win_store: "IKIDghwPwhklVPNnXFQKng2PavKUTiP063NnxEtx"
-            win_steam: "hiQMLpCECy7XqB0CwDb8N3yFvF6VLB9FvxDpNgtV"
-            nsb: "t8S0oUIQIqwzU4Asoyi94eNGdJZu0LJdXEenMrhb"
-        news: "https://ptl-st30.wargaming.net/%s/api/cms/rss/news/"
-        contentPages: "https://ptl-st30.wargaming.net/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
-        popupNews: "https://ptl-st30.wargaming.net/%s/api/cms/promo/"
-        eula: "https://ptl-st30.wargaming.net/%s/content/blitz-client/docs/user_agreement/"
-        privacyPolicy: "https://wotblitz.com/%s/content/blitz-client/docs/privacy_policy/"
-        adsRealmAlias: "review"
-        hosts:
-            R1:
-                url: "login-st30.wotblitz.com:20017"
-                allowTcpConnection: true
-        communityUrls:
-            http:
-                facebook: "https://www.facebook.com/wotblitz"
-                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
-                twitter: "https://twitter.com/WoTBlitz"
-                portal: "https://ptl-st30.wargaming.net"
-                wargaming: "https://www.wargaming.net"
-            native:
-                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
-                twitter: "twitter://user?id=1134245654"
-            native_ios:
-                facebook: "fb://profile/572143336148627"
-            native_android:
-                facebook: "fb://facewebmodal/f?href=https://www.facebook.com/wotblitz"
-        tmsPublicApi: 'https://tmsis-st30.wotblitz.com'
-        isGGMAllowed: true
-        ggmCredits:
-            tokenUrl: "https://auth-st30.gamegrids.net/"
-            payUrl: "https://pay-st30.gamegrids.net/"
-            frontierUrl: "https://api-st30.gamegrids.net/"
-            client_id: "wotb"
-            client_secret: "xeeG6Ba4we8e"
-        ironSourceAppKey:
-            iOS: "c954cf05"
-            Android: "c954957d"
-        layoutPosition:
-            x: 0.521
-            y: 0.55
-        isImageCacheEnabled: true
+            client_secret: "Y2E4MWMwMDYzZW"
+
 ClanEmblems:
     DefaultEmblem:
         Gfx: "https://ma67.gdl.netease.com/icons/clanEmblems1x/clan-icon-v2-10001.png"

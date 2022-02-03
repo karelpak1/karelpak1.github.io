@@ -1,9 +1,8 @@
 Common:
     smartDlcUrls:
-#        - "http://cdn.static.wotb.app/dlc"
+        - "http://cdn.static.wotb.app/dlc"
         - "http://dl-wotblitz-gc.wargaming.net/dlc"
-#        - "https://karelpak1.github.io/dlc"
-    smartDlcDynamicContentConfigsUrl: "https://karelpak1.github.io/dlc"
+    smartDlcDynamicContentConfigsUrl: "http://dl-wotblitz-gc.wargaming.net"
     additionalLocalizationBaseUrl: "https://stufficons.wgcdn.co/localizations"
     public: "true"
     latencyLimitMs: 200
@@ -44,63 +43,6 @@ Common:
         - "8.6.105_3091021"
 
 Regions:
-    REVIEW_NA:
-        realm: "us"
-        flag: "us"
-        defaultLanguage: "en"
-        wgnwn: "https://st30.wargaming.net"
-        clientId: "xQIHnSChfYHun4KN5H6rDIHNJ3RMvZqyHCoLlBVP"
-        # new ids per platform
-        clientIds:
-            android: "tbo3ztJopMb8Onxuf92dwC72aY0vLZNiwi9bum5s"
-            ios: "6NGDADRGTUmNkGsJnsspihG2qWmGdovOS9fuEnDR"
-            macos: "SZANhMjPXfjoGhbA2eRdGowfAbnHs2wKab6ebb7s"
-            macos_steam: "ciz03Kj8IpF8EH3HW6QO9Vqsc8DMjkZYmZiCtW1I"
-            win_store: "IKIDghwPwhklVPNnXFQKng2PavKUTiP063NnxEtx"
-            win_steam: "hiQMLpCECy7XqB0CwDb8N3yFvF6VLB9FvxDpNgtV"
-            nsb: "t8S0oUIQIqwzU4Asoyi94eNGdJZu0LJdXEenMrhb"
-        news: "https://ptl-st30.wargaming.net/%s/api/cms/rss/news/"
-        contentPages: "https://ptl-st30.wargaming.net/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
-        popupNews: "https://ptl-st30.wargaming.net/%s/api/cms/promo/"
-        eula: "https://ptl-st30.wargaming.net/%s/content/blitz-client/docs/user_agreement/"
-        privacyPolicy: "https://wotblitz.com/%s/content/blitz-client/docs/privacy_policy/"
-        tournamentEULA: "https://ptl-st30.wargaming.net/%(locale)/mobile/blitz-1000/"
-        hosts:
-            R1:
-                url: "login-st30.wotblitz.com:20017"
-                allowTcpConnection: true
-        communityUrls:
-            http:
-                facebook: "https://www.facebook.com/wotblitz"
-                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
-                twitter: "https://twitter.com/WoTBlitz"
-                portal: "https://ptl-st30.wargaming.net"
-                wargaming: "https://www.wargaming.net"
-                discord: "https://discord.gg/sR2X6Hp"
-            native:
-                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
-                twitter: "twitter://user?id=1134245654"
-            native_ios:
-                facebook: "fb://profile/572143336148627"
-            native_android:
-                facebook: "fb://facewebmodal/f?href=https://www.facebook.com/wotblitz"
-        prizesWithdrawal: "https://wdw-st30.wotblitz.com"
-        tmsPublicApi: 'https://tmsis-st30.wotblitz.com'
-        isGGMAllowed: true
-        ggmCredits:
-            tokenUrl: "https://auth-st30.gamegrids.net/"
-            payUrl: "https://pay-st30.gamegrids.net/"
-            frontierUrl: "https://api-st30.gamegrids.net/"
-            client_id: "wotb"
-            client_secret: "xeeG6Ba4we8e"
-        adsRealmAlias: "review"
-        ironSourceAppKey:
-            iOS: "c954cf05"
-            Android: "c954957d"
-        layoutPosition:
-            x: 0.521
-            y: 0.55
-        isImageCacheEnabled: true
     Europe:
         wgnwn: "https://eu.wargaming.net"
         clientId: "D6lcd51pjyFVaRWPGGbVfBS6AGVBaSyN3wYCh9y4"
