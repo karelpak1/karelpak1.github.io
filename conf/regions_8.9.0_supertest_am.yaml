@@ -87,6 +87,40 @@ Regions:
         layoutPosition:
             x: 0.521
             y: 0.55
+    ST33:
+        realm: "st33"
+        flag: "us"
+        wgnwn: "https://st33.wargaming.net"
+        clientId: "M0pYCT6o0wx1QBqsudZpt27pzuNw4RCIU4jRKcK3"
+        # new ids per platform
+        clientIds:
+            nsb: "M0pYCT6o0wx1QBqsudZpt27pzuNw4RCIU4jRKcK3"
+            ios: "g9AnVXRDDkaJr5yy9yXWEeiGxyNx7yQHCa11R4vG"
+            android: "fHuS4z3Z1aacOdNPTOQkNAUYpqXFos0IPC1xNB5H"
+            macos: "b8nwZboXmtl5bfvn5raIFyudd6YebWtbqZfiSyaX"
+            macos_steam: "bgl30K3Q8v8686dHVdPP3pzu3vhOzN3ae9Cn1MAZ"
+            win_steam: "a9e0M8iclHj0aqWbZHbMGye5Nyjm8OWe4GLAk0YJ"
+            win_store: "ZbKk2zWz5Zd9NCZR0h6KqrNpsFQ1cvn49UnJ5SqF"
+        news: "https://ptl-st30.wargaming.net/%s/api/cms/rss/news/"
+        contentPages: "https://ptl-st30.wargaming.net/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
+        popupNews: "https://ptl-st30.wargaming.net/%s/api/cms/promo/"
+        eula: "https://ptl-st30.wargaming.net/%s/content/blitz-client/docs/user_agreement/"
+        privacyPolicy: "https://wotblitz.com/%s/content/blitz-client/docs/privacy_policy/"
+        unityAdsZoneAlias: "review"
+        hosts:
+            ST33:
+                url: "login-st33.wotblitz.com:20017"
+        tmsPublicApi: 'https://tmsis-st33.wotblitz.com'
+        isGGMAllowed: true
+        ggmCredits:
+            tokenUrl: "https://auth-st30.gamegrids.net/"
+            payUrl: "https://pay-st30.gamegrids.net/"
+            frontierUrl: "https://api-st30.gamegrids.net/"
+            client_id: "wotb"
+            client_secret: "xeeG6Ba4we8e"
+        layoutPosition:
+            x: 0.521
+            y: 0.3
     CNGV:
         news: "https://wbp-cngv.wotblitz.asia/en/rss/news/"
         popupNews: "https://wbp-cngv.wotblitz.asia/en/promo/"
