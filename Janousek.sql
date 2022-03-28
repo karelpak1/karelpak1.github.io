@@ -44,6 +44,10 @@ CREATE TABLE `counter` (
   PRIMARY KEY (`poradi_navstiveni`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_czech_ci;
 
+INSERT INTO `counter` (`poradi_navstiveni`, `datum_a_cas`, `ip_adr`) VALUES
+(1, '2022-03-28 11:01:03', '::1'),
+(2, '2022-03-28 21:21:36', '::1'),
+
 DROP TABLE IF EXISTS `data3`;
 CREATE TABLE IF NOT EXISTS `data3` (
   `prijmeni` varchar(13) DEFAULT NULL,
