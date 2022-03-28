@@ -46,8 +46,8 @@ CREATE TABLE `counter` (
 
 DROP TABLE IF EXISTS `data3`;
 CREATE TABLE IF NOT EXISTS `data3` (
-  `prijmeni` varchar(13) DEFAULT NOT NULL,
-  `jmeno` varchar(10) DEFAULT NOT NULL,
+  `prijmeni` varchar(13) DEFAULT NULL,
+  `jmeno` varchar(10) DEFAULT NULL,
   `pohlavi` varchar(1) DEFAULT NULL,
   `skupina` varchar(12) DEFAULT NULL,
   `vzdelani` varchar(2) DEFAULT NULL,

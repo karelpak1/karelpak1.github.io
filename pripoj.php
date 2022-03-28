@@ -11,4 +11,11 @@ if (!$condb) {
 }
 
 mysqli_set_charset($condb, "utf8");
+
+function test_input($data) {
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+  }
 ?>
