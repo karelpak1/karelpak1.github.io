@@ -1,3 +1,3 @@
 <?php
-//CODE
+include 'pripoj.php';
 ?>

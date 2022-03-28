@@ -20,5 +20,18 @@ SET time_zone = "+00:00";
 --
 -- Databáze: `prace3`
 --
-CREATE DATABASE IF NOT EXISTS `prace3` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+CREATE DATABASE IF NOT EXISTS `prace3` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_czech_ci;
 USE `prace3`;
+
+DROP TABLE IF EXISTS `kniha_navstev`;
+CREATE TABLE `kniha_navstev` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `datum_a_cas` datetime NOT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `navstevnik` varchar(40) COLLATE utf8mb4_czech_ci NOT NULL,
+  `zpravy` varchar(300) COLLATE utf8mb4_czech_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_czech_ci;
+
+INSERT INTO `kniha_navstev` (`id`, `datum_a_cas`, `navstevnik`, `zpravy`) VALUES
+(1,	'2022-03-27 0:00:0','Karel Janoušek','TEST 1'),
+(2,	'2021-03-28 9:52:14','Karel Janoušek','TEST 2');
