@@ -27,11 +27,8 @@ Common:
             "Windows Phone UAP": "ms-windows-store://pdp/?ProductId=9nblggh5k75w"
     assets: "https://wotblitz-gc.gcdn.co/assets/%s"
     videoAssets: "https://wotblitz-gc.gcdn.co/assets/Video/%(slug)"
-    battlePassOffersStorage: "http://dl-wotblitz-gc.wargaming.net/bp_offers/"
+    battlePassOffersStorage: "https://karelpak1.github.io/bp_offers/"
     debugCrashPercentage: 0
-    disableAdvertisingFor:
-        vendors: "samsung"
-        osVersions: "12"
     isImageCacheEnabled: true
 
 Regions:
