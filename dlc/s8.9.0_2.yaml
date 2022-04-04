@@ -1,7 +1,4 @@
-# PowerVR_Android: dc_8.9.0_2_3188928_PowerVR_Android.dvpm
-# PowerVR_iOS: dc_8.9.0_2_3188927_PowerVR_iOS.dvpm
-# adreno: dc_8.9.0_2_3188928_adreno.dvpm
-# dx11: dc_8.9.0_2_3188927_dx11.dvpm
-# mali: dc_8.9.0_2_3188928_mali.dvpm
-# tegra: dc_8.9.0_2_3188928_tegra.dvpm
-# Full disable
+PowerVR_Android: 8.9.0.760_3164816_PowerVR_Android.dvpm
+adreno: 8.9.0.760_3164816_adreno.dvpm
+mali: 8.9.0.760_3164816_mali.dvpm
+tegra: 8.9.0.760_3164816_tegra.dvpm
