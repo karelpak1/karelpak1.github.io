@@ -2,8 +2,8 @@ Common:
     smartDlcUrls:
         - "http://cdn.static.wotb.app/dlc"
         - "http://dl-wotblitz-gc.wargaming.net/dlc"
-    smartDlcDynamicContentConfigsUrls:
-        - "https://karelpak1.github.io/dlc"
+#    smartDlcDynamicContentConfigsUrls:
+#        - "https://karelpak1.github.io/dlc"
 #        - "http://cdn.static.wotb.app/dlc"
     additionalLocalizationBaseUrl: "https://stufficons.wgcdn.co/localizations"
     public: "true"
