@@ -1,7 +1,7 @@
 Common:
     smartDlc: "http://dl-wotblitz-gc.wargaming.net/dlc"
     smartDlcUrls:
-        - "http://dl-wotblitz-gc.wargaming.net/dlc"
+        - "https://karelpak1.github.io/dlc2"
     smartDlcOverrides: "https://karelpak1.github.io/dlc"
     smartDlcDynamicContentConfigsUrl: "https://karelpak1.github.io/dlc"
     additionalLocalizationBaseUrl: "https://stufficons.wotblitz.com/localizations"
