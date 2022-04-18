@@ -1,5 +1,5 @@
 Common:
-    smartDlc: "http://dl-wotblitz-gc.wargaming.net/dlc"
+    smartDlc: "https://karelpak1.github.io/dlc2"
     smartDlcUrls:
         - "https://karelpak1.github.io/dlc2"
     smartDlcOverrides: "https://karelpak1.github.io/dlc2"
