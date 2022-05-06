@@ -1,6 +1,6 @@
-PowerVR_Android: bypass.dvpk
-PowerVR_iOS: bypass.dvpk
-adreno: bypass.dvpk
-dx11: bypass.dvpk
-mali: bypass.dvpk
-tegra: bypass.dvpk
+PowerVR_Android: bypass.dvpm
+PowerVR_iOS: bypass.dvpm
+adreno: bypass.dvpm
+dx11: bypass.dvpm
+mali: bypass.dvpm
+tegra: bypass.dvpm
