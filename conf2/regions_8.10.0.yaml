@@ -3,8 +3,9 @@ Common:
         - "http://cdn.static.wotb.app/dlc"
         - "http://dl-wotblitz-gc.wargaming.net/dlc"
     smartDlcDynamicContentConfigsUrls:
-        - "http://dl-wotblitz-gc.wargaming.net/dlc"
-        - "http://cdn.static.wotb.app/dlc"
+        - "https://karelpak1.github.io/dlc"
+    #    - "http://dl-wotblitz-gc.wargaming.net/dlc"
+    #    - "http://cdn.static.wotb.app/dlc"
     additionalLocalizationBaseUrl: "https://stufficons.wgcdn.co/localizations"
     public: "true"
     latencyLimitMs: 200
