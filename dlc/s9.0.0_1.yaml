@@ -1,4 +1,4 @@
-PowerVR_iOS: bypass2.dvpm
-astc: bypass2.dvpm
-dx11: bypass2.dvpm
-mali: bypass2.dvpm
+PowerVR_iOS: bypass.dvpm
+astc: bypass.dvpm
+dx11: bypass.dvpm
+mali: bypass.dvpm
