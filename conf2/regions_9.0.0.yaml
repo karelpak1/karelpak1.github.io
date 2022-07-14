@@ -1,10 +1,8 @@
 Common:
     smartDlcUrls:
-        - "http://cdn.static.wotb.app/dlc"
-        - "http://dl-wotblitz-gc.wargaming.net/dlc"
+        - "https://karelpak1.github.io/dlc"
     smartDlcDynamicContentConfigsUrls:
         - "https://karelpak1.github.io/dlc"
-#        - "http://cdn.static.wotb.app/dlc"
     additionalLocalizationBaseUrl: "https://stufficons.wgcdn.co/localizations"
     public: "true"
     latencyLimitMs: 200
@@ -29,14 +27,94 @@ Common:
     videoAssets: "https://wotblitz-gc.gcdn.co/assets/Video/%(slug)"
     battlePassOffersStorage: "http://dl-wotblitz-gc.wargaming.net/bp_offers/"
     debugCrashPercentage: 0
-#    disableAdvertisingFor:
-#        vendors: "samsung"
-#        osVersions: "12"
     isImageCacheEnabled: true
 
 Regions:
+    REVIEW_NA:
+        realm: "us"
+        flag: "us"
+        defaultLanguage: "en"
+        wgnwn: "https://st30.wargaming.net"
+        clientId: "xQIHnSChfYHun4KN5H6rDIHNJ3RMvZqyHCoLlBVP"
+        # new ids per platform
+        clientIds:
+            android: "tbo3ztJopMb8Onxuf92dwC72aY0vLZNiwi9bum5s"
+            ios: "6NGDADRGTUmNkGsJnsspihG2qWmGdovOS9fuEnDR"
+            macos: "SZANhMjPXfjoGhbA2eRdGowfAbnHs2wKab6ebb7s"
+            macos_steam: "ciz03Kj8IpF8EH3HW6QO9Vqsc8DMjkZYmZiCtW1I"
+            win_store: "IKIDghwPwhklVPNnXFQKng2PavKUTiP063NnxEtx"
+            win_steam: "hiQMLpCECy7XqB0CwDb8N3yFvF6VLB9FvxDpNgtV"
+            nsb: "t8S0oUIQIqwzU4Asoyi94eNGdJZu0LJdXEenMrhb"
+        news: "https://ptl-st30.wargaming.net/%s/api/cms/rss/news/"
+        contentPages: "https://ptl-st30.wargaming.net/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
+        popupNews: "https://ptl-st30.wargaming.net/%s/api/cms/promo/"
+        eula: "https://ptl-st30.wargaming.net/%s/content/blitz-client/docs/user_agreement/"
+        privacyPolicy: "https://wotblitz.com/%s/content/blitz-client/docs/privacy_policy/"
+        tournamentEULA: "https://ptl-st30.wargaming.net/%(locale)/mobile/blitz-1000/"
+        hosts:
+            R1:
+                url: "login-st30.wotblitz.com:20017"
+                allowTcpConnection: true
+        communityUrls:
+            http:
+                facebook: "https://www.facebook.com/wotblitz"
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "https://twitter.com/WoTBlitz"
+                portal: "https://ptl-st30.wargaming.net"
+                wargaming: "https://www.wargaming.net"
+                discord: "https://discord.gg/sR2X6Hp"
+            native:
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "twitter://user?id=1134245654"
+            native_ios:
+                facebook: "fb://profile/572143336148627"
+            native_android:
+                facebook: "fb://facewebmodal/f?href=https://www.facebook.com/wotblitz"
+        prizesWithdrawal: "https://wdw-st30.wotblitz.com"
+        tmsPublicApi: 'https://tmsis-st30.wotblitz.com'
+        isGGMAllowed: true
+        ggmCredits:
+            tokenUrl: "https://auth-st30.gamegrids.net/"
+            payUrl: "https://pay-st30.gamegrids.net/"
+            frontierUrl: "https://api-st30.gamegrids.net/"
+            client_id: "wotb"
+            client_secret: "xeeG6Ba4we8e"
+        adsRealmAlias: "review"
+        ironSourceAppKey:
+            iOS: "c954cf05"
+            Android: "c954957d"
+        layoutPosition:
+            x: 0.521
+            y: 0.55
+    CNGV:
+        news: "https://wbp-cngv.wotblitz.asia/en/rss/news/"
+        popupNews: "https://wbp-cngv.wotblitz.asia/en/promo/"
+        public: "true"
+        wotBlitzPortal: "https://wbp-cngv.wotblitz.asia"
+        wgnwn: "https://cngv.wotblitz.asia"
+        realm: "cn"
+        flag: "cn"
+        clientId: IkHLXmY97hL0fZwxKFQkkCpH5skz0vw8WvOxsnrr
+        netEaseHostId: 3
+        hosts:
+            CNGV:
+                url: "wotblitzcngv.login.wargaming.net:20017"
+                allowTcpConnection: true
+        tmsPublicApi: 'https://tmsis-cngv.wotblitz.asia'
+        isGGMAllowed: true
+        ggmCredits:
+            tokenUrl: "https://auth-cngv.ggdevcn.com/"
+            payUrl: "https://pay-cngv.ggdevcn.com/"
+            frontierUrl: "https://api-cngv.ggdevcn.com/"
+            client_id: "wotb"
+            client_secret: "secret"
+        battlePassOffersStorage: "https://ma67.gdl.netease.com/bp_offers/"
+        layoutPosition:
+            x: 0.7
+            y: 0.55
     Europe:
         wgnwn: "https://eu.wargaming.net"
+        wotBlitzPremShop: "https://eu.wargaming.net/shop/wotb"
         clientId: "D6lcd51pjyFVaRWPGGbVfBS6AGVBaSyN3wYCh9y4"
         # new ids per platform
         clientIds:
@@ -47,6 +125,7 @@ Regions:
             win_store: "WfLPGAQwtCdVu0rWW00ghJaVA8qPvXKIAQAbzmUc"
             win_steam: "6mcnWI6lKG9A3eAn5AGhbTX3q0Y53jJ8cGG6EsCJ"
             nsb: "1KOQHcMByd9z2Gkzvl24gW9ya5PurBdwmTSJyJCf"
+            wgc: "MbqIx7b24vmI7m2Kdh1qhaeqx3KfCqbKKHNUAI91"
         news: "https://eu.wotblitz.com/%s/api/cms/rss/news/"
         contentPages: "https://wotblitz.eu/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
         popupNews: "https://eu.wotblitz.com/%s/api/cms/promo/"
@@ -112,6 +191,7 @@ Regions:
 
     Russia:
         wgnwn: "https://ru.wargaming.net"
+        wotBlitzPremShop: "https://ru.wargaming.net/shop/wotb"
         clientId: "ESoha64ZYPisFEopdAlbw15Qx7VPQNszV49lUZOg"
         # new ids per platform
         clientIds:
@@ -122,6 +202,7 @@ Regions:
             win_store: "5JrqqrFzFbyMDmHovocc7FFOIeV6JDwEVrpku7Z9"
             win_steam: "ZhflUbPWXO1Hmmg9GIU0oqf07RF9rjAazds3Lo1k"
             nsb: "CA9Twh9LPJnZVTTaRLVtzN1EwBkpMk8w3z8pDFq4"
+            wgc: "HIiYoYnpUdBw7VDV5LOOr7r5thZvcJTPXf4VsMTA"
         news: "https://ru.wotblitz.com/%s/api/cms/rss/news/"
         contentPages: "https://wotblitz.ru/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
         popupNews: "https://ru.wotblitz.com/%s/api/cms/promo/"
@@ -196,6 +277,7 @@ Regions:
 
     North America:
         wgnwn: "https://na.wargaming.net"
+        wotBlitzPremShop: "https://na.wargaming.net/shop/wotb"
         clientId: "2BPjeiZ09NBrHjc4rsV9KqN3za41nGCoRKmqUU9G"
         # new ids per platform
         clientIds:
@@ -206,6 +288,7 @@ Regions:
             win_store: "nNAIPeURvqcDYRLIbnQxBSATXFC7UsnZWpZhcdic"
             win_steam: "dYXmz6BdMZXmw9B8RVOFeTydbPoIkDYh9LgA53zG"
             nsb: "Xmgam5waflWRcPWRU833lmUYr3IJqYaCRYJHO5oI"
+            wgc: "94BaDDKEHVtpeeYZOpWbGw6Kr5ZIngBuU0rNtJTu"
         news: "https://na.wotblitz.com/%s/api/cms/rss/news/"
         contentPages: "https://wotblitz.com/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
         popupNews: "https://na.wotblitz.com/%s/api/cms/promo/"
@@ -270,6 +353,7 @@ Regions:
 
     Asia:
         wgnwn: "https://asia.wargaming.net"
+        wotBlitzPremShop: "https://asia.wargaming.net/shop/wotb"
         clientId: "CLGZNuOhfKFRQHEVkIQT6oUaoHNMYLG4YC9YG0uK"
         # new ids per platform
         clientIds:
@@ -280,6 +364,7 @@ Regions:
             win_store: "I7VdJ34GsCBqN1lC6iX8aXSjknCwWHjnyloU4U9e"
             win_steam: "W6Ez2lFCGlMwPZSI23Vhhmj6qr0UHaTpWTcWX3q5"
             nsb: "0uNetmi76xAB12oXpgwcUsFNoWKuOoHxtShU0x7l"
+            wgc: "GBlyAR4K39rBI9bBJFmbi4fYd0KcDupqWuGiJApF"
         news: "https://asia.wotblitz.com/%s/api/cms/rss/news/"
         contentPages: "https://wotblitz.asia/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
         popupNews: "https://asia.wotblitz.com/%s/api/cms/promo/"
@@ -345,6 +430,7 @@ Regions:
 
     Arabian:
         wgnwn: "https://eu.wargaming.net"
+        wotBlitzPremShop: "https://eu.wargaming.net/shop/wotb"
         clientId: "D6lcd51pjyFVaRWPGGbVfBS6AGVBaSyN3wYCh9y4"
         # new ids per platform
         clientIds:
@@ -355,6 +441,7 @@ Regions:
             win_store: "WfLPGAQwtCdVu0rWW00ghJaVA8qPvXKIAQAbzmUc"
             win_steam: "6mcnWI6lKG9A3eAn5AGhbTX3q0Y53jJ8cGG6EsCJ"
             nsb: "1KOQHcMByd9z2Gkzvl24gW9ya5PurBdwmTSJyJCf"
+            wgc: "MbqIx7b24vmI7m2Kdh1qhaeqx3KfCqbKKHNUAI91"
         news: "https://eu.wotblitz.com/%s/api/cms/rss/news/"
         contentPages: "https://wotblitz.eu/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
         popupNews: "https://eu.wotblitz.com/%s/api/cms/promo/"
@@ -411,6 +498,7 @@ Regions:
 
     LATAM:
         wgnwn: "https://na.wargaming.net"
+        wotBlitzPremShop: "https://na.wargaming.net/shop/wotb"
         clientId: "2BPjeiZ09NBrHjc4rsV9KqN3za41nGCoRKmqUU9G"
         # new ids per platform
         clientIds:
@@ -421,6 +509,7 @@ Regions:
             win_store: "nNAIPeURvqcDYRLIbnQxBSATXFC7UsnZWpZhcdic"
             win_steam: "dYXmz6BdMZXmw9B8RVOFeTydbPoIkDYh9LgA53zG"
             nsb: "Xmgam5waflWRcPWRU833lmUYr3IJqYaCRYJHO5oI"
+            wgc: "94BaDDKEHVtpeeYZOpWbGw6Kr5ZIngBuU0rNtJTu"
         news: "https://na.wotblitz.com/%s/api/cms/rss/news/"
         contentPages: "https://wotblitz.com/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
         popupNews: "https://na.wotblitz.com/%s/api/cms/promo/"
