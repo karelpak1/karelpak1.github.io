@@ -1,0 +1,897 @@
+Common:
+    smartDlcUrls:
+        - "http://cdn.static.wotb.app/dlc"
+        - "http://dl-wotblitz-gc.wargaming.net/dlc"
+    smartDlcDynamicContentConfigsUrls:
+        - "http://dl-wotblitz-gc.wargaming.net/dlc"
+        - "http://cdn.static.wotb.app/dlc"
+    additionalLocalizationBaseUrl: "https://stufficons.wgcdn.co/localizations"
+    public: "true"
+    latencyLimitMs: 200
+    wotBlitzPortal: "https://wotblitz.com"
+    support_query: "blitz=1&locale=%s"
+    appleAppStore: "https://itunes.apple.com/app/id859204347"
+    appleMacAppStore: "macappstore://itunes.apple.com/app/id1068932208"
+    steamStore: "steam://nav/games/details/444200"
+    onestoreAppStoreUrl: "onestore://common/product/0000713208"
+    netEaseGas3Url: "https://mgbsdk.matrix.netease.com/ma67/sdk/"
+    wotBlitzPortalQRCode: "http://dl-wotblitz-gc.wargaming.net/qr_code/wotblitz_%(realm).png"
+    defaultLanguage: "en"
+    isTournamentEventsEnabled: true
+    blitzAssistant:
+        store:
+            default: "https://wotblitz.ru/assistant/"
+            iOS: "itms-apps://itunes.apple.com/app/id1047617794"
+            Android: "market://details?id=net.wargaming.wot.blitz.assistant"
+            "Windows Desktop UAP": "ms-windows-store://pdp/?ProductId=9nblggh5k75w"
+            "Windows Phone UAP": "ms-windows-store://pdp/?ProductId=9nblggh5k75w"
+    assets: "https://wotblitz-gc.gcdn.co/assets/%s"
+    videoAssets: "https://wotblitz-gc.gcdn.co/assets/Video/%(slug)"
+    battlePassOffersStorage: "http://dl-wotblitz-gc.wargaming.net/bp_offers/"
+    debugCrashPercentage: 0
+    isImageCacheEnabled: true
+    useRUBYServerSelectionFlow: true
+    migrationInfo:
+        phase: 3
+        teleportSlug:
+            stayOnRu: "/id/signout/trigger/?next=/personal/teleport/?suggest=RU"
+            migrateToEu: "/id/signout/trigger/?next=/personal/teleport/?suggest=EU"
+            migrateToRu: "/id/signout/trigger/?next=/personal/teleport/?suggest=RU"
+            uncertain: "/id/signout/trigger/?next=/personal/teleport/"
+        newsLink:
+            android: "https://wotblitz.com/content/transfer-information-platforms/"
+            ios: "https://wotblitz.com/content/transfer-information-platforms/"
+            macos: "https://wotblitz.com/content/transfer-information-platforms/"
+            wgc: "https://wotblitz.com/content/transfer-information-platforms/"
+            win_store: "https://wotblitz.com/content/transfer-information-platforms/"
+            nsb: "https://wotblitz.com/content/transfer-information-platforms/"
+            macos_steam: "https://wotblitz.com/content/transfer-information-steam/"
+            win_steam: "https://wotblitz.com/content/transfer-information-steam/"
+        instructionLink:
+            android: "https://wotblitz.com/content/transfer-information-post-faq/"
+            ios: "https://wotblitz.com/content/transfer-information-post-faq-3/"
+            macos: "https://wotblitz.com/content/transfer-information-post-faq-3/"
+            macos_steam: "https://wotblitz.com/content/transfer-information-post-faq-2/"
+            win_store: "https://wotblitz.com/content/transfer-information-post-faq-2/"
+            win_steam: "https://wotblitz.com/content/transfer-information-post-faq-2/"
+            nsb: "https://wotblitz.com/content/transfer-information-post-faq-2/"
+
+
+Regions:
+    Europe:
+        wgnwn: "https://eu.wargaming.net"
+        wotBlitzPremShop: "https://eu.wargaming.net/shop/wotb"
+        clientId: "D6lcd51pjyFVaRWPGGbVfBS6AGVBaSyN3wYCh9y4"
+        # new ids per platform
+        clientIds:
+            android: "2Nll5Q5K17DWcO7DPfml5R2OrR0bap74QHCyBJ7T"
+            ios: "mptionNaBzot3RLccox1OPXUd9kj5gw0vNMW0zAt"
+            macos: "9L832i8LyrraT89q93jFcEZbqknKW8QqzS1Topyy"
+            macos_steam: "zU4VbHv8YpNsj8eb9In44OZiUjSb50Lrw26NAOhG"
+            win_store: "WfLPGAQwtCdVu0rWW00ghJaVA8qPvXKIAQAbzmUc"
+            win_steam: "6mcnWI6lKG9A3eAn5AGhbTX3q0Y53jJ8cGG6EsCJ"
+            nsb: "1KOQHcMByd9z2Gkzvl24gW9ya5PurBdwmTSJyJCf"
+            wgc: "MbqIx7b24vmI7m2Kdh1qhaeqx3KfCqbKKHNUAI91"
+        news: "https://eu.wotblitz.com/%s/api/cms/rss/news/"
+        contentPages: "https://wotblitz.eu/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
+        popupNews: "https://eu.wotblitz.com/%s/api/cms/promo/"
+        eula: "https://wotblitz.eu/%s/content/blitz-client/docs/user_agreement/"
+        privacyPolicy: "https://wotblitz.eu/%s/content/blitz-client/docs/privacy_policy/"
+        clansEULA: "https://legal.eu.wargaming.net/en/clan-rules-blitz/"
+        tournamentEULA: "https://wotblitz.eu/%(locale)/mobile/blitz-1000/"
+        realm: "eu"
+        flag: "eu"
+        wotBlitzPortal: "https://eu.wotblitz.com"
+        adsRealmAlias: "eu"
+        preferredHost: "best"
+        bestPingTolerance: 20
+        analyticsConfig:
+            keyedArchive:
+                started:
+                    bool: false
+                events:
+                    keyedArchive:
+                        all:
+                            bool: false
+        hosts:
+            EU_C0:
+                clusterID: 0
+                url: "login0.wotblitz.eu:20016"
+            EU_C1:
+                clusterID: 1
+                url: "login1.wotblitz.eu:20016"
+            EU_C2:
+                clusterID: 2
+                url: "login2.wotblitz.eu:20016"
+            EU_C3:
+                clusterID: 3
+                url: "login3.wotblitz.eu:20016"
+            EU_C4:
+                clusterID: 4
+                url: "login4.wotblitz.eu:20016"
+        communityUrls:
+            http:
+                facebook: "https://www.facebook.com/wotblitz"
+                instagram: "https://www.instagram.com/wotblitz/"
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "https://twitter.com/WoTBlitz"
+                portal: "https://eu.wotblitz.com"
+                wargaming: "https://www.wargaming.net"
+                discord: "https://discord.gg/sR2X6Hp"
+            native:
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "twitter://user?id=1134245654"
+            native_ios:
+                facebook: "fb://profile/572143336148627"
+            native_android:
+                facebook: "fb://facewebmodal/f?href=https://www.facebook.com/wotblitz"
+        prizesWithdrawal: "https://payout.wotblitz.eu"
+        tmsPublicApi: 'https://tmsis.wotblitz.eu'
+        isGGMAllowed: true
+        ggmCredits:
+            tokenUrl: "https://auth.gamegrids.net/"
+            payUrl: "https://pay.gamegrids.net/"
+            frontierUrl: "https://api.gamegrids.net/"
+            client_id: "wotb"
+            client_secret: "eeGh9foh8aey"
+        ironSourceAppKey:
+            iOS: "aaaab6ed"
+            Android: "a8df2385"
+        layoutPosition:
+            x: 0.521
+            y: 0.39
+        migrationInfo:
+            enabledOn:
+                android: true
+                ios: true
+                macos: true
+                win_store: false
+                macos_steam: false
+                win_steam: false
+                nsb: false
+                wgc: false
+
+    Lesta:
+        wgnwn: "https://lesta.ru"
+        wotBlitzPremShop: "https://lesta.ru/shop/wotb/gold"
+        # new ids per platform
+        clientIds:
+            ios: "YlzUYCbpDNFUOSBmguZyfzg7j7EfS5utWV1NUo0H"
+            android: "w9CqzemI9tufN7NW4EMPBq3yFTatPypPmZS8eF6x"
+            macos: "pclh8ZmIt9LL2AfVwVN3hPNsK4unJHHRDuYgqUn7"
+            wgc: "VoHTrVUiwH4Og0vrMldKQcTCsh1iLEutC8ViK6ag"
+        news: "https://tanksblitz.ru/%s/api/cms/rss/news/"
+        contentPages: "https://tanksblitz.ru/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
+        popupNews: "https://tanksblitz.ru/%s/api/cms/promo/"
+        eula: "https://legal.tanksblitz.info/eula/"
+        privacyPolicy: "https://legal.tanksblitz.info/privacy-policy/"
+        clansEULA: "https://legal.tanksblitz.info/clan-rules-blitz/"
+        videoAssets: "https://wotblitz-gc.gcdn.co/assets/Video/ru/%(slug)"
+        realm: "ru"
+        flag: "ru"
+        wotBlitzPortal: "https://tanksblitz.ru"
+        adsRealmAlias: "ru"
+        defaultLanguage: "ru"
+        preferredHost: "best"
+        bestPingTolerance: 20
+        analyticsConfig:
+            keyedArchive:
+                started:
+                    bool: false
+                events:
+                    keyedArchive:
+                        all:
+                            bool: false
+        hosts:
+            RU_C0:
+                clusterID: 0
+                url: "login0.tanksblitz.ru:20016"
+            RU_C1:
+                clusterID: 1
+                url: "login1.tanksblitz.ru:20016"
+            RU_C2:
+                clusterID: 2
+                url: "login2.tanksblitz.ru:20016"
+            RU_C3:
+                clusterID: 3
+                url: "login3.tanksblitz.ru:20016"
+            RU_C4:
+                clusterID: 4
+                url: "login4.tanksblitz.ru:20016"
+            RU_C5:
+                clusterID: 5
+                url: "login5.tanksblitz.ru:20016"
+        communityUrls:
+            http:
+                vk: "https://vk.com/club49033185"
+                youtube: "https://www.youtube.com/channel/UCrh8Fd_QKmzhv4lhrS-k4sQ"
+                discord: "https://discord.gg/GDKXhkk"
+                portal: "https://tanksblitz.ru"
+                wargaming: "https://lesta.ru"
+        tmsPublicApi: 'https://tmsis.tanksblitz.ru'
+        ggmGameTitle: "ruby"
+        isGGMAllowed: true
+        ggmCredits:
+            tokenUrl: "https://auth.tanksblitz.ru/"
+            payUrl: "https://pay.tanksblitz.ru/"
+            frontierUrl: "https://api.tanksblitz.ru/"
+            client_id: "gameclnt"
+            client_secret: "Nzk5ZmI2NWE3Nzdh"
+        ironSourceAppKey:
+            iOS: "15efdeca5"
+            Android: "15fc0c43d"
+        layoutPosition:
+            x: 0.64
+            y: 0.35
+
+
+    North America:
+        wgnwn: "https://na.wargaming.net"
+        wotBlitzPremShop: "https://na.wargaming.net/shop/wotb"
+        clientId: "2BPjeiZ09NBrHjc4rsV9KqN3za41nGCoRKmqUU9G"
+        # new ids per platform
+        clientIds:
+            android: "OhH8oqTXjEwKnxzHlhDcXP4R4KAxeSVJlCr27inR"
+            ios: "0QNhf7T8HkfXhah8t22ZJtjtPpla77H3M8OtfrEj"
+            macos: "nxHDFVeIzasjJp6eoJgEJ2dBmLybfBLKdMzGvM0v"
+            macos_steam: "aq9AqDN4OO7fWYMPKdkJyS3kG4kTfnYFcB1zxrqk"
+            win_store: "nNAIPeURvqcDYRLIbnQxBSATXFC7UsnZWpZhcdic"
+            win_steam: "dYXmz6BdMZXmw9B8RVOFeTydbPoIkDYh9LgA53zG"
+            nsb: "Xmgam5waflWRcPWRU833lmUYr3IJqYaCRYJHO5oI"
+            wgc: "94BaDDKEHVtpeeYZOpWbGw6Kr5ZIngBuU0rNtJTu"
+        news: "https://na.wotblitz.com/%s/api/cms/rss/news/"
+        contentPages: "https://wotblitz.com/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
+        popupNews: "https://na.wotblitz.com/%s/api/cms/promo/"
+        eula: "https://wotblitz.com/%s/content/blitz-client/docs/user_agreement/"
+        privacyPolicy: "https://wotblitz.com/%s/content/blitz-client/docs/privacy_policy/"
+        clansEULA: "https://legal.na.wargaming.net/en/clan-rules-blitz/"
+        tournamentEULA: "https://wotblitz.com/%(locale)/mobile/blitz-1000/"
+        realm: "us"
+        flag: "us"
+        wotBlitzPortal: "https://na.wotblitz.com"
+        adsRealmAlias: "us"
+        preferredHost: "best"
+        bestPingTolerance: 20
+        analyticsConfig:
+            keyedArchive:
+                started:
+                    bool: false
+                events:
+                    keyedArchive:
+                        all:
+                            bool: false
+        hosts:
+            NA_C0:
+                clusterID: 0
+                url: "login0.wotblitz.com:20016"
+            NA_C1:
+                clusterID: 1
+                url: "login1.wotblitz.com:20016"
+            NA_C2:
+                clusterID: 2
+                url: "login2.wotblitz.com:20016"
+        communityUrls:
+            http:
+                facebook: "https://www.facebook.com/wotblitz"
+                instagram: "https://www.instagram.com/wotblitz/"
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "https://twitter.com/WoTBlitz"
+                portal: "https://na.wotblitz.com"
+                wargaming: "https://www.wargaming.net"
+                discord: "https://discord.gg/sR2X6Hp"
+            native:
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "twitter://user?id=1134245654"
+            native_ios:
+                facebook: "fb://profile/572143336148627"
+            native_android:
+                facebook: "fb://facewebmodal/f?href=https://www.facebook.com/wotblitz"
+        tmsPublicApi: 'https://tmsis.wotblitz.com'
+        isGGMAllowed: true
+        ggmCredits:
+            tokenUrl: "https://auth.gamegrids.net/"
+            payUrl: "https://pay.gamegrids.net/"
+            frontierUrl: "https://api.gamegrids.net/"
+            client_id: "wotb"
+            client_secret: "eeGh9foh8aey"
+        ironSourceAppKey:
+            iOS: "aaaab6ed"
+            Android: "a8df2385"
+        layoutPosition:
+            x: 0.2
+            y: 0.45
+        migrationInfo:
+            enabledOn:
+                android: true
+                ios: true
+                macos: true
+                win_store: false
+                macos_steam: false
+                win_steam: false
+                nsb: false
+                wgc: false
+
+    Asia:
+        wgnwn: "https://asia.wargaming.net"
+        wotBlitzPremShop: "https://asia.wargaming.net/shop/wotb"
+        clientId: "CLGZNuOhfKFRQHEVkIQT6oUaoHNMYLG4YC9YG0uK"
+        # new ids per platform
+        clientIds:
+            android: "SdYByIdBgTlCTR1v6zVCUzKFoEgfYO0zYF1nSx54"
+            ios: "XkxSnxOfRyQfrAIRiNBOxjY7sMJ72ciBttp7ey43"
+            macos: "KSB7Zho2QleO8D8qF0JZh6v0rqdEbBoFN4nQUS8E"
+            macos_steam: "LwuMfRy4y6S5YDx9HJYJZ9FCXK7DiqXvNk9tWEJ9"
+            win_store: "I7VdJ34GsCBqN1lC6iX8aXSjknCwWHjnyloU4U9e"
+            win_steam: "W6Ez2lFCGlMwPZSI23Vhhmj6qr0UHaTpWTcWX3q5"
+            nsb: "0uNetmi76xAB12oXpgwcUsFNoWKuOoHxtShU0x7l"
+            wgc: "GBlyAR4K39rBI9bBJFmbi4fYd0KcDupqWuGiJApF"
+        news: "https://asia.wotblitz.com/%s/api/cms/rss/news/"
+        contentPages: "https://wotblitz.asia/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
+        popupNews: "https://asia.wotblitz.com/%s/api/cms/promo/"
+        eula: "https://wotblitz.asia/%s/content/blitz-client/docs/user_agreement/"
+        privacyPolicy: "https://wotblitz.asia/%s/content/blitz-client/docs/privacy_policy/"
+        clansEULA: "https://legal.asia.wargaming.net/en/clan-rules-blitz/"
+        tournamentEULA: "https://wotblitz.asia/%(locale)/mobile/blitz-1000/"
+        realm: "sg"
+        flag: "sg"
+        wotBlitzPortal: "https://asia.wotblitz.com"
+        adsRealmAlias: "sg"
+        preferredHost: "best"
+        bestPingTolerance: 20
+        analyticsConfig:
+            keyedArchive:
+                started:
+                    bool: false
+                events:
+                    keyedArchive:
+                        all:
+                            bool: false
+        hosts:
+            SG_C0:
+                clusterID: 0
+                url: "login0.wotblitz.asia:20016"
+            SG_C1:
+                clusterID: 1
+                url: "login1.wotblitz.asia:20016"
+            SG_C2:
+                clusterID: 2
+                url: "login2.wotblitz.asia:20016"
+        communityUrls:
+            http:
+                facebook: "https://www.facebook.com/wotblitz"
+                instagram: "https://www.instagram.com/wotblitz/"
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "https://twitter.com/BlitzAsia"
+                portal: "https://asia.wotblitz.com"
+                wargaming: "https://www.wargaming.net"
+                discord: "https://discord.gg/sR2X6Hp"
+            native:
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "twitter://user?id=2616820147"
+            native_ios:
+                facebook: "fb://profile/572143336148627"
+            native_android:
+                facebook: "fb://facewebmodal/f?href=https://www.facebook.com/wotblitz"
+        prizesWithdrawal: "https://payout.wotblitz.asia"
+        tmsPublicApi: 'https://tmsis.wotblitz.asia'
+        isGGMAllowed: true
+        ggmCredits:
+            tokenUrl: "https://auth.gamegrids.net/"
+            payUrl: "https://pay.gamegrids.net/"
+            frontierUrl: "https://api.gamegrids.net/"
+            client_id: "wotb"
+            client_secret: "eeGh9foh8aey"
+        ironSourceAppKey:
+            iOS: "aaaab6ed"
+            Android: "a8df2385"
+        layoutPosition:
+            x: 0.8
+            y: 0.6
+        migrationInfo:
+            enabledOn:
+                android: true
+                ios: true
+                macos: true
+                win_store: false
+                macos_steam: false
+                win_steam: false
+                nsb: false
+                wgc: false
+
+    Arabian:
+        wgnwn: "https://eu.wargaming.net"
+        wotBlitzPremShop: "https://eu.wargaming.net/shop/wotb"
+        clientId: "D6lcd51pjyFVaRWPGGbVfBS6AGVBaSyN3wYCh9y4"
+        # new ids per platform
+        clientIds:
+            android: "2Nll5Q5K17DWcO7DPfml5R2OrR0bap74QHCyBJ7T"
+            ios: "mptionNaBzot3RLccox1OPXUd9kj5gw0vNMW0zAt"
+            macos: "9L832i8LyrraT89q93jFcEZbqknKW8QqzS1Topyy"
+            macos_steam: "zU4VbHv8YpNsj8eb9In44OZiUjSb50Lrw26NAOhG"
+            win_store: "WfLPGAQwtCdVu0rWW00ghJaVA8qPvXKIAQAbzmUc"
+            win_steam: "6mcnWI6lKG9A3eAn5AGhbTX3q0Y53jJ8cGG6EsCJ"
+            nsb: "1KOQHcMByd9z2Gkzvl24gW9ya5PurBdwmTSJyJCf"
+            wgc: "MbqIx7b24vmI7m2Kdh1qhaeqx3KfCqbKKHNUAI91"
+        news: "https://eu.wotblitz.com/%s/api/cms/rss/news/"
+        contentPages: "https://wotblitz.eu/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
+        popupNews: "https://eu.wotblitz.com/%s/api/cms/promo/"
+        eula: "https://wotblitz.eu/%s/content/blitz-client/docs/user_agreement/"
+        privacyPolicy: "https://wotblitz.eu/%s/content/blitz-client/docs/privacy_policy/"
+        clansEULA: "https://legal.eu.wargaming.net/en/clan-rules-blitz/"
+        tournamentEULA: "https://wotblitz.eu/%(locale)/mobile/blitz-1000/"
+        realm: "eu"
+        flag: "ar"
+        wotBlitzPortal: "https://eu.wotblitz.com"
+        adsRealmAlias: "eu"
+        analyticsConfig:
+            keyedArchive:
+                started:
+                    bool: false
+                events:
+                    keyedArchive:
+                        all:
+                            bool: false
+        hosts:
+            EU_C0:
+                clusterID: 0
+                url: "login0.wotblitz.eu:20016"
+            EU_C1:
+                clusterID: 1
+                url: "login1.wotblitz.eu:20016"
+            EU_C2:
+                clusterID: 2
+                url: "login2.wotblitz.eu:20016"
+            EU_C3:
+                clusterID: 3
+                url: "login3.wotblitz.eu:20016"
+            EU_C4:
+                clusterID: 4
+                url: "login4.wotblitz.eu:20016"
+        communityUrls:
+            http:
+                facebook: "https://www.facebook.com/wotblitz"
+                instagram: "https://www.instagram.com/wotblitz/"
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "https://twitter.com/WoTBlitz"
+                portal: "https://eu.wotblitz.com"
+                wargaming: "https://www.wargaming.net"
+                discord: "https://discord.gg/sR2X6Hp"
+            native:
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "twitter://user?id=1134245654"
+            native_ios:
+                facebook: "fb://profile/572143336148627"
+            native_android:
+                facebook: "fb://facewebmodal/f?href=https://www.facebook.com/wotblitz"
+        tmsPublicApi: 'https://tmsis.wotblitz.eu'
+        isGGMAllowed: true
+        ggmCredits:
+            tokenUrl: "https://auth.gamegrids.net/"
+            payUrl: "https://pay.gamegrids.net/"
+            frontierUrl: "https://api.gamegrids.net/"
+            client_id: "wotb"
+            client_secret: "eeGh9foh8aey"
+        ironSourceAppKey:
+            iOS: "aaaab6ed"
+            Android: "a8df2385"
+        migrationInfo:
+            enabledOn:
+                android: true
+                ios: true
+                macos: true
+                win_store: false
+                macos_steam: false
+                win_steam: false
+                nsb: false
+                wgc: false
+
+    LATAM:
+        wgnwn: "https://na.wargaming.net"
+        wotBlitzPremShop: "https://na.wargaming.net/shop/wotb"
+        clientId: "2BPjeiZ09NBrHjc4rsV9KqN3za41nGCoRKmqUU9G"
+        # new ids per platform
+        clientIds:
+            android: "OhH8oqTXjEwKnxzHlhDcXP4R4KAxeSVJlCr27inR"
+            ios: "0QNhf7T8HkfXhah8t22ZJtjtPpla77H3M8OtfrEj"
+            macos: "nxHDFVeIzasjJp6eoJgEJ2dBmLybfBLKdMzGvM0v"
+            macos_steam: "aq9AqDN4OO7fWYMPKdkJyS3kG4kTfnYFcB1zxrqk"
+            win_store: "nNAIPeURvqcDYRLIbnQxBSATXFC7UsnZWpZhcdic"
+            win_steam: "dYXmz6BdMZXmw9B8RVOFeTydbPoIkDYh9LgA53zG"
+            nsb: "Xmgam5waflWRcPWRU833lmUYr3IJqYaCRYJHO5oI"
+            wgc: "94BaDDKEHVtpeeYZOpWbGw6Kr5ZIngBuU0rNtJTu"
+        news: "https://na.wotblitz.com/%s/api/cms/rss/news/"
+        contentPages: "https://wotblitz.com/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
+        popupNews: "https://na.wotblitz.com/%s/api/cms/promo/"
+        eula: "https://wotblitz.com/%s/content/blitz-client/docs/user_agreement/"
+        privacyPolicy: "https://wotblitz.com/%s/content/blitz-client/docs/privacy_policy/"
+        clansEULA: "https://legal.na.wargaming.net/en/clan-rules-blitz/"
+        tournamentEULA: "https://wotblitz.com/%(locale)/mobile/blitz-1000/"
+        realm: "us"
+        flag: "latam"
+        wotBlitzPortal: "https://na.wotblitz.com"
+        adsRealmAlias: "us"
+        preferredHost: "best"
+        bestPingTolerance: 20
+        analyticsConfig:
+            keyedArchive:
+                started:
+                    bool: false
+                events:
+                    keyedArchive:
+                        all:
+                            bool: false
+        hosts:
+            NA_C0:
+                clusterID: 0
+                url: "login0.wotblitz.com:20016"
+            NA_C1:
+                clusterID: 1
+                url: "login1.wotblitz.com:20016"
+            NA_C2:
+                clusterID: 2
+                url: "login2.wotblitz.com:20016"
+        communityUrls:
+            http:
+                facebook: "https://www.facebook.com/wotblitz"
+                instagram: "https://www.instagram.com/wotblitz/"
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "https://twitter.com/WoTBlitz"
+                portal: "https://na.wotblitz.com"
+                wargaming: "https://www.wargaming.net"
+                discord: "https://discord.gg/sR2X6Hp"
+            native:
+                youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
+                twitter: "twitter://user?id=1134245654"
+            native_ios:
+                facebook: "fb://profile/572143336148627"
+            native_android:
+                facebook: "fb://facewebmodal/f?href=https://www.facebook.com/wotblitz"
+        tmsPublicApi: 'https://tmsis.wotblitz.com'
+        isGGMAllowed: true
+        ggmCredits:
+            tokenUrl: "https://auth.gamegrids.net/"
+            payUrl: "https://pay.gamegrids.net/"
+            frontierUrl: "https://api.gamegrids.net/"
+            client_id: "wotb"
+            client_secret: "eeGh9foh8aey"
+        ironSourceAppKey:
+            iOS: "aaaab6ed"
+            Android: "a8df2385"
+        migrationInfo:
+            enabledOn:
+                android: true
+                ios: true
+                macos: true
+                win_store: false
+                macos_steam: false
+                win_steam: false
+                nsb: false
+                wgc: false
+
+ClanEmblems:
+    DefaultEmblem:
+        Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10001.png"
+        Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10001.png"
+    DefaultCreationEmblemID: 10001
+    List:
+        2:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-2.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-2.png"
+        3:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-3.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-3.png"
+        4:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-4.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-4.png"
+        5:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-5.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-5.png"
+        6:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-6.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-6.png"
+        7:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-7.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-7.png"
+        8:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-8.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-8.png"
+        9:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-9.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-9.png"
+        10:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10.png"
+        11:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-11.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-11.png"
+        20:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20.png"
+        21:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-21.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-21.png"
+        22:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-22.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-22.png"
+        23:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-23.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-23.png"
+        24:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-24.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-24.png"
+        25:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-25.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-25.png"
+        26:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-26.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-26.png"
+        27:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-27.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-27.png"
+        28:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-28.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-28.png"
+        29:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-29.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-29.png"
+        30:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-30.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-30.png"
+        31:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-31.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-31.png"
+        32:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-32.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-32.png"
+        33:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-33.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-33.png"
+        34:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-34.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-34.png"
+        35:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-35.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-35.png"
+        36:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-36.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-36.png"
+        37:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_027.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_027.png"
+        38:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_028.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_028.png"
+        39:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_029.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_029.png"
+        40:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_030.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_030.png"
+        41:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_031.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_031.png"
+        42:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_032.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_032.png"
+        43:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_033.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_033.png"
+        44:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_034.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_034.png"
+        45:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_035.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_035.png"
+        46:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_036.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_036.png"
+        47:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_037.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_037.png"
+        48:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-48.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-48.png"
+        49:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_eu_17.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_eu_17.png"
+        50:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_asia_32.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_asia_32.png"
+        51:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_asia_1439.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_asia_1439.png"
+        52:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_na_4455.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_na_4455.png"
+        53:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_asia_35579.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_asia_35579.png"
+        54:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_na_10012.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_na_10012.png"
+        55:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_ru_13691.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_ru_13691.png"
+        56:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_eu_24803.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_eu_24803.png"
+        57:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_na_44868.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_na_44868.png"
+        58:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_eu_95009.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_eu_95009.png"
+        59:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_ru_246160.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_ru_246160.png"
+        60:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_ru_310874.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_ru_310874.png"
+        61:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_038.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_038.png"
+        62:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_039.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_039.png"
+        63:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_040.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_040.png"
+        64:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_041.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_041.png"
+        65:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_042.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_042.png"
+        66:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_043.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_043.png"
+        67:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-logo_personal_044.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-logo_personal_044.png"
+        10001:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10001.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10001.png"
+        10002:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10002.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10002.png"
+        10003:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10003.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10003.png"
+        10004:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10004.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10004.png"
+        10005:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10005.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10005.png"
+        10006:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10006.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10006.png"
+        10007:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10007.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10007.png"
+        10008:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10008.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10008.png"
+        10009:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10009.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10009.png"
+        10010:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10010.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10010.png"
+        10011:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10011.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10011.png"
+        10012:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10012.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10012.png"
+        10013:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10013.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10013.png"
+        10014:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10014.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10014.png"
+        10015:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10015.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10015.png"
+        10016:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10016.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10016.png"
+        10017:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10017.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10017.png"
+        10018:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10018.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10018.png"
+        10019:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10019.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10019.png"
+        10020:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10020.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10020.png"
+        10021:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10021.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10021.png"
+        10022:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10022.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10022.png"
+        10023:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10023.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10023.png"
+        10024:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10024.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10024.png"
+        20002:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20002.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20002.png"
+        20003:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20003.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20003.png"
+        20004:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20004.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20004.png"
+        20005:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20005.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20005.png"
+        20006:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20006.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20006.png"
+        20007:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20007.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20007.png"
+        20008:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20008.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20008.png"
+        20009:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20009.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20009.png"
+        20010:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20010.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20010.png"
+        20011:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20011.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20011.png"
+        20012:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20012.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20012.png"
+        20013:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20013.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20013.png"
+        20014:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20014.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20014.png"
+        20015:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20015.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20015.png"
+        20016:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20016.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20016.png"
+        20017:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20017.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20017.png"
+        20018:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20018.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20018.png"
+        20019:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20019.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20019.png"
+        20020:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20020.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20020.png"
+        20021:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20021.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20021.png"
+        20022:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20022.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20022.png"
+        20023:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20023.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20023.png"
+        20024:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20024.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20024.png"
+        20025:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20025.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20025.png"
+        20026:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-20026.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-20026.png"
